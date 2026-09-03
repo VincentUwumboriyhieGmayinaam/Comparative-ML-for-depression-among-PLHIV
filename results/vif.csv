@@ -1,0 +1,34 @@
+feature,VIF
+On_TPT,2.4238890827044086
+Education_Primary/JHS,1.9107398180374113
+Belief_system,1.8883540414721416
+Healthcare_quality,1.8597769587952266
+ART_duration_More than a year,1.652174124531719
+Years_since_diagnosis_A year ago,1.6217580184468359
+HIV_impact_daily_life,1.6164633818602814
+Cultural_norms,1.5862786261408863
+Education_SHS/SSS/O Level/A Level,1.5747267060890324
+Religion_Islam,1.5350873846741355
+Community_acceptance,1.4853458683011949
+Ethnicity_Ga/Dangbe,1.4771181007756284
+Ethnicity_Ewe,1.4672003166595138
+Difficulty_expressing,1.463648420823296
+Age,1.462572768649804
+Education_Tertiary,1.4610372587328033
+Tailored_MH_services,1.4479318206009155
+Years_since_diagnosis_more than 4 years ago,1.4391407338001534
+Provider_relationship,1.3713323946875033
+Ethnicity_Kokomba,1.3665818152770282
+Sex,1.3493888458167909
+Occupation_Self_Employed,1.3490208814519076
+WHO_stage_known,1.3203351382136175
+Years_since_diagnosis_3 years ago,1.2996922567879345
+Ethnicity_Guan,1.2893063514252765
+Recurrent_thoughts,1.2784340104304932
+Worry_anxiety,1.2359464800550362
+Tobacco_use,1.2235486061921717
+Religion_Traditionalist,1.2076125362049501
+Counselling_attended,1.207555056368366
+Low_energy,1.1939162455300154
+Overall_HIV_impact,1.188546391070375
+Substance_use,1.1362430604380431

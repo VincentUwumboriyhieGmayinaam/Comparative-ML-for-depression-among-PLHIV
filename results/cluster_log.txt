@@ -1,0 +1,78 @@
+============================================================================
+MULTICOLLINEARITY ASSESSMENT AND HIERARCHICAL FEATURE REDUCTION
+============================================================================
+
+Spearman correlation among 52 features:
+  |rho| >= 0.9 : 2 pairs
+  |rho| >= 0.8 : 4 pairs
+  |rho| >= 0.7 : 6 pairs
+  max |rho| = 0.922 ; mean |rho| = 0.122
+
+Feature pairs with |rho| >= 0.6 (15):
+   Occupation Self Employed           Occupation Unemployed              -0.922
+   On TPT                             Chills fever                       +0.902
+   On TPT                             Comorbid illness                   +0.842
+   Chills fever                       Comorbid illness                   +0.804
+   TB screened                        TB test requested                  +0.792
+   Comorbid illness                   Medication side effects            +0.746
+   TB test requested                  On TPT                             +0.698
+   TB test requested                  Chills fever                       +0.697
+   TB screened                        On TPT                             +0.690
+   TB screened                        Chills fever                       +0.687
+   On TPT                             Medication side effects            +0.684
+   TB test requested                  Comorbid illness                   +0.643
+   TB screened                        Comorbid illness                   +0.637
+   ART duration Don't know            ART duration More than a year      -0.630
+   Chills fever                       Medication side effects            +0.628
+
+Ward linkage on distance = 1 - |Spearman rho|; cut at 0.7
+  clusters formed: 33 (from 52 features)
+  features retained: 33
+
+Retained feature set:
+   - Age  (|z| = 2.15)
+   - Sex  (|z| = 3.50)
+   - Ethnicity Ewe  (|z| = 1.01)
+   - Ethnicity Ga/Dangbe  (|z| = 2.45)
+   - Ethnicity Guan  (|z| = 0.44)
+   - Ethnicity Kokomba  (|z| = 0.57)
+   - Religion Islam  (|z| = 1.94)
+   - Religion Traditionalist  (|z| = 0.31)
+   - Education Primary/JHS  (|z| = 0.62)
+   - Education SHS/SSS/O Level/A Level  (|z| = 0.54)
+   - Education Tertiary  (|z| = 2.05)
+   - Occupation Self Employed  (|z| = 1.29)
+   - Years since diagnosis 3 years ago  (|z| = 0.62)
+   - Years since diagnosis A year ago  (|z| = 2.57)
+   - Years since diagnosis more than 4 years ago  (|z| = 0.13)
+   - ART duration More than a year  (|z| = 0.55)
+   - WHO stage known  (|z| = 3.67)
+   - On TPT  (|z| = 4.87)
+   - HIV impact daily life  (|z| = 3.68)
+   - Overall HIV impact  (|z| = 2.85)
+   - Substance use  (|z| = 0.53)
+   - Tobacco use  (|z| = 0.23)
+   - Counselling attended  (|z| = 0.04)
+   - Healthcare quality  (|z| = 7.30)
+   - Tailored MH services  (|z| = 6.26)
+   - Provider relationship  (|z| = 4.59)
+   - Belief system  (|z| = 7.94)
+   - Cultural norms  (|z| = 5.50)
+   - Community acceptance  (|z| = 4.10)
+   - Worry anxiety  (|z| = 2.19)
+   - Low energy  (|z| = 0.95)
+   - Difficulty expressing  (|z| = 2.37)
+   - Recurrent thoughts  (|z| = 3.07)
+
+Variance inflation factors on the retained set:
+  max VIF = 2.42 ; features with VIF > 5: 0 ; VIF > 10: 0
+   On TPT                                     2.42
+   Education Primary/JHS                      1.91
+   Belief system                              1.89
+   Healthcare quality                         1.86
+   ART duration More than a year              1.65
+   Years since diagnosis A year ago           1.62
+   HIV impact daily life                      1.62
+   Cultural norms                             1.59
+   Education SHS/SSS/O Level/A Level          1.57
+   Religion Islam                             1.54
